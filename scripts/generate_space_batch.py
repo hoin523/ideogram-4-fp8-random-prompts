@@ -7,8 +7,11 @@ import argparse
 import json
 import os
 import time
+import warnings
 from pathlib import Path
 from typing import Any
+
+warnings.filterwarnings("ignore", message="urllib3 v2 only supports OpenSSL.*")
 
 import requests
 from huggingface_hub import get_token
@@ -17,6 +20,24 @@ from huggingface_hub import get_token
 SPACE_URL = "https://ideogram-ai-ideogram4.hf.space"
 POST_URL = f"{SPACE_URL}/gradio_api/call/v2/generate"
 EVENT_URL = f"{SPACE_URL}/gradio_api/call/generate"
+
+
+class SpaceError(RuntimeError):
+    """Readable error from the Gradio Space."""
+
+    def __init__(self, raw: str):
+        self.raw = raw
+        try:
+            payload = json.loads(raw)
+        except json.JSONDecodeError:
+            self.payload = None
+            message = raw
+        else:
+            self.payload = payload
+            title = payload.get("title")
+            error = payload.get("error")
+            message = f"{title}: {error}" if title and error else error or raw
+        super().__init__(message)
 
 
 def auth_headers() -> dict[str, str]:
@@ -50,7 +71,7 @@ def wait_for_result(event_id: str, timeout: int, headers: dict[str, str]) -> lis
             if event_name == "complete" and data_lines:
                 return json.loads("\n".join(data_lines))
             if event_name == "error" and data_lines:
-                raise RuntimeError("\n".join(data_lines))
+                raise SpaceError("\n".join(data_lines))
             event_name = None
             data_lines = []
             continue

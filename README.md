@@ -19,11 +19,33 @@ So the committed successful image artifacts are generated through the official p
 
 ## Run
 
+### One prompt
+
+Create `prompt.txt` from the example, paste your prompt into `prompt.txt`, then run:
+
 ```bash
 python3 -m venv .venv
 . .venv/bin/activate
 pip install -r requirements.txt
-python scripts/generate_space_batch.py
+cp prompt.example.txt prompt.txt
+python3 scripts/generate_prompt.py
+```
+
+If you are already inside `scripts/`, run:
+
+```bash
+python3 generate_prompt.py
+```
+
+Single-prompt outputs are written to `results/manual/`.
+
+### Batch prompts
+
+```bash
+python3 -m venv .venv
+. .venv/bin/activate
+pip install -r requirements.txt
+python3 scripts/generate_space_batch.py
 ```
 
 Generated files are written to `results/`:

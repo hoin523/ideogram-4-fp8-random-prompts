@@ -6,3 +6,5 @@ __pycache__/
 generated_images/
 .codex/generated_images/
 ig_*.png
+prompt.txt
+results/manual/
