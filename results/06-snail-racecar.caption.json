@@ -1,0 +1,21 @@
+{
+  "high_level_description": "A translucent snail driving a miniature racecar across a chessboard desert, a hyperrealistic surreal photo with dramatic cinematic lighting and a 1:1 square composition.",
+  "compositional_deconstruction": {
+    "background": "Endless desert chessboard stretching to a vanishing horizon, alternating matte black and storm-grey squares, under a high-contrast twilight sky casting long angular shadows across the tiles, dry cracked earth visible between the squares, ambient light from a low sun on the upper-right.",
+    "elements": [
+      {
+        "type": "obj",
+        "desc": "A translucent snail with a glassy blue shell and semi-transparent gelatinous body, its head angled forward with two large glowing amber eyes, the snail's left rear leg gripping the rear bumper of a miniature red racecar as it crawls across the black square in the center of the frame."
+      },
+      {
+        "type": "obj",
+        "desc": "A tiny brushed-metal racecar with glowing orange taillights and a single rear spoiler, its front bumper tilted upward slightly as if accelerating, track marks glowing faintly on the tires where they meet the black square tile, the car's driver’s seat hollow and visible through the transparent body."
+      },
+      {
+        "type": "text",
+        "text": "CHESSBOARD DESERT",
+        "desc": "Bold uppercase stencil-style text in matte white, centered horizontally on the upper third of the frame, casting a soft shadow onto the black square behind it."
+      }
+    ]
+  }
+}

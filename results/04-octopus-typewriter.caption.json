@@ -1,0 +1,20 @@
+{
+  "high_level_description": "An octopus typing legal contracts on a brass typewriter in an underwater library, a hyperrealistic deep-sea photograph with soft ambient blue-green lighting.",
+  "compositional_deconstruction": {
+    "background": "A vast sunken library with towering cylindrical marble bookshelves receding into soft blue-green murk, water droplets suspended in the air catching faint light, a distant arched window revealing a dimly lit abyssal trench, ambient pressure-light reflects off mossy stone and aged leather bindings.",
+    "elements": [
+      {
+        "type": "obj",
+        "desc": "A large dark-blue octopus with eight splayed arms, three arms gripping the brass typewriter keys while the others rest on its ink-stained keyboard, the creature’s eyes wide and focused, one ink-smeared tentacle hovering just above the ‘Enter’ key, its suckers glistening under ambient light."
+      },
+      {
+        "type": "obj",
+        "desc": "A vintage brass typewriter with tarnished keys and a cracked ribbed carriage, resting on a cracked wooden desk covered in swirling ink, a single red rubber band loops around its back leg, the paper roll visibly spilling legal text onto the desk surface."
+      },
+      {
+        "type": "obj",
+        "desc": "A floating page of legal contract text, ink-drenched, swirling in mid-air just above the typewriter, illuminated by a faint bio-luminescent glow reflecting off the surrounding water, with the visible phrase ‘IN WITNESS WHEREOF’ in bold cursive font, the edges curled from water pressure."
+      }
+    ]
+  }
+}

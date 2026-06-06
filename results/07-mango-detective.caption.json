@@ -1,0 +1,21 @@
+{
+  "high_level_description": "A mango detective inspecting glowing footprints in a snowy art museum, a cinematic photograph with cold ambient lighting and reflective surfaces.",
+  "compositional_deconstruction": {
+    "background": "Large polished white marble floor reflecting overhead recessed lights, snowflakes falling in soft focus from a high vaulted ceiling with exposed beams, deep indigo walls lined with framed abstract paintings, frost patterns on the lower edge of the frame.",
+    "elements": [
+      {
+        "type": "obj",
+        "desc": "A detective in a charcoal trench coat and woolen scarf, bald with a sharp angular jaw, holding a magnifying glass in their right hand, bent slightly forward over a glowing footprint on the floor, one foot planted near the center-right of the frame."
+      },
+      {
+        "type": "obj",
+        "desc": "Three glowing footprints in iridescent blue and gold, arranged in a curved trail from lower-left to upper-center, each casting a soft halo glow on the marble floor, faintly smudged with powdered snow."
+      },
+      {
+        "type": "text",
+        "text": "FORENSIC FOOTPRINTS",
+        "desc": "White uppercase sans-serif label floating just above the last glowing footprint, angled slightly upward with a subtle drop shadow against the icy floor."
+      }
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "high_level_description": "A cactus conductor leading an opera with tiny glass submarines in a velvet-lined theater, a surreal cinematic photograph with theatrical spotlight and rich ambient textures.",
+  "compositional_deconstruction": {
+    "background": "Velvet-draped theater walls in deep burgundy with a plush crimson carpeted floor, a single warm theatrical spotlight from above casting a golden pool on stage center, a black curtain at the rear with ornate gold embroidery, ambient silence implied by absence of motion.",
+    "elements": [
+      {
+        "type": "obj",
+        "desc": "A tall spiky barrel cactus wearing a conductor’s robe made of stitched leather and a velvet bow tie, standing upright on stage center with arms raised holding a baton of polished bone, eyes glowing faintly amber, positioned under the spotlight."
+      },
+      {
+        "type": "obj",
+        "desc": "Three tiny glass submarines each with a single glowing red eye, suspended in mid-air to the cactus’s right, each containing a miniature soprano, alto, and bass opera singer in translucent glass suits, floating at shoulder height with trailing steam trails."
+      },
+      {
+        "type": "obj",
+        "desc": "A single brass opera horn resting on the stage floor near the cactus’s left foot, mouthpiece gleaming under the spotlight, the bell pointing upward, with a fine layer of dry dust on its surface."
+      }
+    ]
+  }
+}

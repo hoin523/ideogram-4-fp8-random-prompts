@@ -1,0 +1,25 @@
+{
+  "high_level_description": "A pelican riding a bicycle through a rainy neon fish market, a cinematic photo with wet reflective streets and glowing signage under overcast twilight.",
+  "compositional_deconstruction": {
+    "background": "Wet asphalt street reflecting neon light in a narrow alley between wooden fish stalls under an overcast twilight sky, ambient glow from signboards casting soft reflections on the ground, ambient light from a single hanging sodium lamp casting warm amber pools on the pavement.",
+    "elements": [
+      {
+        "type": "obj",
+        "desc": "Pelican with a thick white beak tipped in yellow, dark grey wings folded at its sides, riding a rusty vintage bicycle with a curved handlebar and worn leather seat, the pelican’s body angled forward as if pedaling, the bicycle’s front wheel turned slightly left."
+      },
+      {
+        "type": "obj",
+        "desc": "Neon-lit fish stall sign in red and green with bold kanji characters reading '鮮魚市場' mounted on a weathered bamboo post, the sign's bright red glow cast in puddles on the wet pavement, hanging signboard tilted backward, casting a slanted reflection on the ground."
+      },
+      {
+        "type": "obj",
+        "desc": "Large silver fish in a glass tank at the stall base reflecting neon lights, fins curved upward, eyes glowing faintly, resting beside bamboo crates with slumped nets, water inside the tank murky and shallow."
+      },
+      {
+        "type": "text",
+        "text": "鮮魚市場",
+        "desc": "Bold red neon kanji text on the stall sign, glowing in the rain with a slight green halo, angled upward at the sign’s top edge, casting sharp neon reflections on wet pavement below."
+      }
+    ]
+  }
+}

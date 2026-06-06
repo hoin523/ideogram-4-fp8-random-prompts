@@ -1,0 +1,21 @@
+{
+  "high_level_description": "A storm cloud playing an accordion at a midnight subway platform, a surreal cinematic photograph with moody overcast lighting and high contrast.",
+  "compositional_deconstruction": {
+    "background": "A damp midnight subway platform with cracked concrete floor glowing faintly under flickering neon signs, a dark arched glass roof overhead casting sharp reflections, heavy rain streaking vertically across the surface, ambient blue and grey tones with a single warm amber streetlamp glow in the distance.",
+    "elements": [
+      {
+        "type": "obj",
+        "desc": "Massive cumulonimbus storm cloud with ragged edges and turbulent internal structure, its lower portion transformed into a weathered black accordion with visible bellows and metal valves, positioned in the center of the platform, a single lightning flash illuminating its underside."
+      },
+      {
+        "type": "obj",
+        "desc": "Dense crowd of silhouetted commuters huddled under steel canopies at the far platform end, each holding umbrellas, their breath visible as white vapor against the cold air, feet planted on damp concrete near the edge of the station."
+      },
+      {
+        "type": "text",
+        "text": "STORM LULLABY",
+        "desc": "Faint glowing cyan neon sign mounted on the curved wall above the platform’s far end, cursive script partially obscured by rain and steam, casting soft reflected light on nearby wet surfaces."
+      }
+    ]
+  }
+}

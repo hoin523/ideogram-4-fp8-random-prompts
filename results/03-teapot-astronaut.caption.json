@@ -1,0 +1,20 @@
+{
+  "high_level_description": "A porcelain teapot wearing a silver astronaut suit harvesting moonlit strawberries, a surreal cinematic photograph with a dreamlike lunar landscape and soft ambient glow.",
+  "compositional_deconstruction": {
+    "background": "Rolling grey lunar regolith stretching to a distant crater rim under a starless sky, a soft silver moonlight reflecting off the surface, the horizon casting long shadows, subtle blue-grey tones with a cool white glow from the moon.",
+    "elements": [
+      {
+        "type": "obj",
+        "desc": "Porcelain teapot with a glossy white glaze and delicate floral embossing, encased in a fitted silver astronaut suit with a reflective helmet visor and a small circular oxygen tank on its back, positioned slightly left of center, one hand holding a glowing red strawberry above its spout."
+      },
+      {
+        "type": "obj",
+        "desc": "Three ripe red strawberries with dewy translucent skin and green leafy tops, floating mid-air in front of the teapot’s body, one caught mid-harvest with a thin silver tweezer protruding from the suit's gloved hand."
+      },
+      {
+        "type": "obj",
+        "desc": "A small rectangular lunar habitat module with curved metallic panels and a rectangular solar panel array on the roof, buried into the regolith in the background, a thin vapor trail rising from its exhaust port."
+      }
+    ]
+  }
+}
