@@ -1,3 +1,8 @@
 .venv/
 __pycache__/
 .DS_Store
+
+# Local image generation outputs
+generated_images/
+.codex/generated_images/
+ig_*.png
